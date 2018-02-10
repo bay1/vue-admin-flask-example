@@ -1,0 +1,12 @@
+click==6.7
+Flask==0.12.2
+Flask-Cors==3.0.3
+Flask-HTTPAuth==3.2.3
+Flask-SQLAlchemy==2.3.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+passlib==1.7.1
+six==1.11.0
+SQLAlchemy==1.2.2
+Werkzeug==0.14.1
