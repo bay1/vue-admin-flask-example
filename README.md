@@ -4,8 +4,19 @@
 
 ## 本地预览
 
->按照下面命令
-等待浏览器打开 http://localhost:8080
+### Docker
+
+>本机安装docker的话直接在根目录运行
+
+```
+docker-compose up -d
+```
+
+>再打开打包的目录dist下的index.html即可
+
+### 源码
+
+>依此按照下面命令
 
 ```
 D:\Github\vue-admin-flask-example
@@ -21,10 +32,11 @@ D:\Github\vue-admin-flask-example
 D:\Github\vue-admin-flask-example
 (venv) $ python manage.py
 
-//开启另一个终端
+//开启另一个终端(或者像上一个方式直接打开/dist/index.html)
 D:\Github\vue-admin-flask-example
 $ npm run dev
 ```
+>等待浏览器打开 http://localhost:8080
 
 ## API汇总：
 
